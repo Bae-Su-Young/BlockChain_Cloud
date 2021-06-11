@@ -12,6 +12,9 @@ module.exports = function(app) {
      app.get('/about',function(req,res){
         res.render('about.html');
     });
+    app.get('/about_copy',function(req,res){
+      res.render('about copy.html');
+  });
      
     app.get('/listall', function (req, res) {
       //res.render('about.html');
